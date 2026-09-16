@@ -1,0 +1,15 @@
+[submodule "projects/FastAPI-CRUD-Todo"]
+	path = projects/FastAPI-CRUD-Todo
+	url = https://github.com/lymanny/FastAPI-CRUD-Todo.git
+[submodule "projects/react-fastapi-todo"]
+	path = projects/react-fastapi-todo
+	url = https://github.com/saurabhahuja71/react-fastapi-todo.git
+[submodule "projects/next-learn"]
+	path = projects/next-learn
+	url = https://github.com/vercel/next-learn.git
+[submodule "projects/nextjs-todo-app"]
+	path = projects/nextjs-todo-app
+	url = https://github.com/James-HPJ/nextjs-todo-app.git
+[submodule "projects/todo_api"]
+	path = projects/todo_api
+	url = https://github.com/HimanshuBhamaniya/todo_api.git

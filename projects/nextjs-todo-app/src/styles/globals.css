@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* MainNavigation Component */
+.navbar {@apply fixed top-0 w-full z-10 p-5 bg-gradient-to-r from-lime-500 to-green-500 }
+.brand {@apply font-mono font-bold text-2xl}
+.btn-logout {@apply p-2 rounded hover:text-white hover:ring hover:scale-110 transition ease-in duration-300}
+
+/* Form Component */
+.form-container {@apply container md:w-1/2 text-center mx-auto p-4 m-4 mt-20 }
+.form-inputs {@apply w-full px-4 py-2 focus:outline-0}
+.btn-add {@apply w-full rounded border font-semibold bg-green-400 p-3 hover:text-white hover:ring ring-slate-200 transition ease-out duration-500}
+.btn-cancel {@apply w-full rounded border font-semibold bg-red-400 p-3 hover:text-white hover:ring ring-slate-200 transition ease-out duration-500}
+
+/* Noteitem Component */
+.list-item {@apply max-w-4xl mx-auto flex flex-col sm:flex-row gap-3 text-center sm:text-left border shadow p-2 pt-4 first:rounded-t last:rounded-b odd:bg-slate-200 relative}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'Montserrat';
+}

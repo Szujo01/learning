@@ -1,0 +1,24 @@
+# Helyi beállítások és titkok
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Telepített csomagok, build és ideiglenes fájlok
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.next/
+dist/
+coverage/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+work/
+.DS_Store
+Thumbs.db
